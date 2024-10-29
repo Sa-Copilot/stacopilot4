@@ -1,9 +1,15 @@
-﻿
+﻿window.onload = function() {
+    var modal = document.getElementById('modal');
+    var acceptBtn = document.getElementById('accept');
+    var declineBtn = document.getElementById('decline');
+    var image = document.getElementById('scaryImage');
+    var alertContainer = document.getElementById('alert-container');
+
     var alerts = [
         "⚠️ Warning: Your system has been hacked!",
         "⚠️ Virus is loading...",
         "⚠️ All your files have been destroyed!",
-        "😈 Ha ha ha! its just a prank! Don't worry !!"
+        "😈 This is just a prank! Don't worry. Ha ha ha!"
     ];
 
     function showScaryContent() {
