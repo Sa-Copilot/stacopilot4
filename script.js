@@ -24,7 +24,7 @@
                 alertBox.classList.add('alert-box');
                 alertBox.innerText = message;
                 alertContainer.insertBefore(alertBox, alertContainer.firstChild);
-                var audio = new Audio('notification.mp3'); // تأكد من وجود ملف الصوت في نفس المجلد
+                var audio = new Audio('notification.mp3');
                 audio.play();
             }, delay);
             delay += 2000;
